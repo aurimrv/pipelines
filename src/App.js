@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import mba from './MBA.png';
+import dcufscar from './logo-dc.png';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={mba} className="App-logo" alt="logo" />
+          <img src={dcufscar} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Devops UFSCAR</h1>
         </header>
         <p className="App-intro">
